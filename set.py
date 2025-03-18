@@ -1,0 +1,9 @@
+eids={}
+s={10}
+uids={10,20,20,30,30,"balajireddy","hari","madhu","raghava"}
+print(eids)
+print(s)
+print(uids)
+print(type(eids))
+print(type(uids))
+print(type(s))
