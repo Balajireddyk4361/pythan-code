@@ -122,9 +122,14 @@ employees=[{'eid':1,'ename':'Izak','gender':'Male'},
 #         print(employees[i]['ename'],"Gender:",employees[i]['gender']) 
 #     i=i+1 
 
-#print No of non gender count
-emp_count=0
-for emp in employees:
-    if emp['gender']!='Female' and emp['gender'] !='Male':
-        emp_count=emp_count+1
-        print('No of non_gender Employees:' ,emp_count)
+# #print No of non gender count
+# emp_count=0
+# for emp in employees:
+#     if emp['gender']!='Female' and emp['gender'] !='Male':
+#         emp_count=emp_count+1
+#         print('No of non_gender Employees:' ,emp_count)
+
+
+i=1
+while i<=len(employees)-1:
+    if employees[i]

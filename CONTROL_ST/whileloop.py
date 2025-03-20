@@ -99,5 +99,17 @@ employees=[{"eid":1,"ename":"Boony","gender":"Male"},
 {"eid":99,"ename":"Malvin","gender":"Male"},
 {"eid":100,"ename":"Catrina","gender":"Female"}]
 
+# for emp in employees:
+#     print(emp["ename"])
+
+
+# i=0
+# while i<= len(employees)-1:
+#     if employees[i] ["gender"] == "Male":
+#        print(employees[i]["ename"],"Gender:",employees[i]['gender'])
+#     i=i+1
+
+
 for emp in employees:
-    print(emp('ename'))
+    if emp["gender"] == "Male":
+        print("ename:",emp["ename"],"Gender:" , emp["gender"])
