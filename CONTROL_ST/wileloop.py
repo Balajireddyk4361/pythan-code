@@ -9,14 +9,3 @@
 # for a in eids:
 #     print("gm")
 
-
-    # print 1 to 10 using while  loop st
-i=2
-while i<=20:
-    i=i+2
-    print(i)
-
-i=1
-while i<=10:
-    print('9*',i,'=',9*i)
-    i=i+1

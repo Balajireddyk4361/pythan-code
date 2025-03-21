@@ -1,4 +1,4 @@
-#uids=[101,102,103,104,[],{},(),"bala"]
+1#uids=[101,102,103,104,[],{},(),"bala"]
 #eids=[]
 #how to create list
 enames=["bala","rahul","sonia","modi"]
@@ -9,7 +9,7 @@ print(enames[0])
 print(enames[-1])
 print(enames[-2])
 print(enames[-3])
-print(enames[-4])#index out of range
+print(enaes[-4])#index out of range
 
 #update list
 enames[3]="Balajiteddy"
