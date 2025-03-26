@@ -20,12 +20,12 @@ for x in range(10):
 
 from random import randint
 
-lotery_NO=[]
+lotery_NO=[]  
 
 for x in range(10):
-    lotery_NO.append(randint(10,20))
+    lotery_NO.append(randint(100,999))
 print(lotery_NO)
-
+ 
 
 
 
@@ -41,7 +41,7 @@ print(lotery_NO)
 print(choice(lotery_NO))
 
 
-from random import choice,choices
+from random import choice
 enames=['bala','hati','san','push','dhoni','modi']
 print(choice(enames))
 
